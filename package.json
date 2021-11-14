@@ -1,0 +1,28 @@
+{
+  "name": "cli-app-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon ./index.js localhost 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repro-tetris/cli-app-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/repro-tetris/cli-app-01/issues"
+  },
+  "homepage": "https://github.com/repro-tetris/cli-app-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "yargs": "^17.2.1"
+  }
+}
